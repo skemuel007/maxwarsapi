@@ -1,0 +1,38 @@
+{
+  "name": "star-wars",
+  "version": "1.0.0",
+  "description": "A max.ng star-wars API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "Star Wars",
+    "Star",
+    "Wars"
+  ],
+  "author": "Stanley-Kemuel Lloyd Salvation",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "file-stream-rotator": "^0.5.7",
+    "fs": "*",
+    "joi": "^17.4.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "rotating-file-stream": "^2.1.5",
+    "swagger-jsdoc": "5.0.1",
+    "swagger-ui-express": "^4.1.6",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
