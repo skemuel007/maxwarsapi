@@ -79,11 +79,6 @@ app.get('/', (req, res) => {
 // swagger api middleware
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec)); // swagger routes
 
-const dbPass = config.get('dbPass');
-const dbHost = config.get('dbHost');
-const dbName = config.get('dbName');
-const dbUser = config.get('dbUser');
-
 const port = process.env.PORT || 3000; // setup port
 
 // start the server

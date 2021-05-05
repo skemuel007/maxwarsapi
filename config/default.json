@@ -1,6 +1,6 @@
 {
   "dbPass" : "",
-  "dbHost" : "",
-  "dbUser" : "",
-  "dbName" : ""
+  "dbHost" : "localhost",
+  "dbUser" : "root",
+  "dbName" : "star_wars_db"
 }
