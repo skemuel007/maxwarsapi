@@ -2,5 +2,6 @@
   "dbPass" : "",
   "dbHost" : "localhost",
   "dbUser" : "root",
-  "dbName" : "star_wars_db"
+  "dbName" : "star_wars_db",
+  "baseUrl" : "https://swapi.dev/api"
 }
